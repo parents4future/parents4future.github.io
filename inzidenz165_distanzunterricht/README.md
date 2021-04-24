@@ -5,8 +5,8 @@ Lightweight Germany map containing **age dependent** incidence numbers for each 
 The data on new infections is from the [Robert Koch Institute](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0?selectedAttribute=Refdatum) and the population data ist from [DESTATIS (Dataset 12411-0017)](https://www-genesis.destatis.de/genesis//online?operation=table&code=12411-0017&bypass=true&levelindex=0&levelid=1618480251047).
 You can also download the processed data in json or csv format from the `assets/data` folder.
 
-- **Live Website: https://parents4future.github.io/risikogebiete_deutschland/**
+- **Live Website: https://parents4future.github.io/inzidenz165_distanzunterricht/**
 
 <div>
-   <img src="/assets/img/example.png" alt="Example picture" width="500"> 
+   <img src="/inzidenz165_distanzunterricht/assets/img/example.png" alt="Example picture" width="500"> 
 </div>
