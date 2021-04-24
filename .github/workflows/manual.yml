@@ -38,12 +38,4 @@ jobs:
            add: 'inzidenz165_distanzunterricht/assets/data/*'
         env:
            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Add & Commit
-        uses: EndBug/add-and-commit@v5
-        with:
-           author_name: UpdateBot
-           author_email: 59623838+parents4future@users.noreply.github.com
-           message: "Updated rki dataset"
-           add: 'risikogebiete_deutschland/assets/data/*'
-        env:
-           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+           
