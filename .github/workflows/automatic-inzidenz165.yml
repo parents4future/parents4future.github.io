@@ -1,12 +1,12 @@
 # This is a basic workflow to help you get started with Actions
 
-name: automatic-update
+name: automatic-update-inzidenz165
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
   schedule:
-    - cron: "0 */4 * * *" #runs at 00:00 UTC everyday
+    - cron: "0 */1 * * *" #runs at 00:00 UTC everyday
       
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -35,8 +35,8 @@ jobs:
         uses: EndBug/add-and-commit@v5
         with:
            author_name: UpdateBot
-           author_email: sebastian@mohrenclan.de
+           author_email: 59623838+parents4future@users.noreply.github.com
            message: "Updated rki dataset"
-           add: 'assets/data/*'
+           add: 'inzidenz165_distanzunterricht/assets/data/*'
         env:
            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
