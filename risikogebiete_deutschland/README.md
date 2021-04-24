@@ -8,5 +8,5 @@ You can also download the processed data in json or csv format from the `assets/
 - **Live Website: https://parents4future.github.io/risikogebiete_deutschland/**
 
 <div>
-   <img src="/assets/img/example.png" alt="Example picture" width="500"> 
+   <img src="/risikogebiete_deutschland/assets/img/example.png" alt="Example picture" width="500"> 
 </div>
