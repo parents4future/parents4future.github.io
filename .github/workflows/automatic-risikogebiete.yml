@@ -11,9 +11,10 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  update_data:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    # Same for every task/step 
     defaults:
         run:
             working-directory: ./risikogebiete_deutschland/assets/python
@@ -29,8 +30,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       # Another job called     
-      - name: Run update on rki data
+      - name: Run update on rki data (legacy)
         run: python update_data.py
+      - name: Run update on rki data
+        run: python timeseries_data.py
       - name: Add & Commit
         uses: EndBug/add-and-commit@v5
         with:
